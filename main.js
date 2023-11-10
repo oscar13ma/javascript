@@ -39,41 +39,81 @@
 // DATOS PRIMITIVOS
 
 // string cadena de texto
-let vendedor = "enrico" ;
-let vendedor2 = 'gonzalo' ;
-console.log("vendedor: ", typeof vendedor) 
-
-let number1 = 31 ;
-
-let number2 = 13.05 ;
-console.log("Number1: ", typeof number1) 
-console.log("Number2: ", typeof number2)
-
-// boleans
-let verdadero = true ;
-let falso = false ;
-console.log("Verdadero: ", typeof verdadero)
-console.log("Falso: ", typeof falso)
-// nulo
-let dinero = null ;
-console.log("Dinero: ", typeof dinero)
-// undefined
- let sueldo; 
- console.log("Sueldo: ", typeof sueldo)
-
-//  DATOS COMPLEJOS
-
-// Array arreglo
-let arreglo = [1, "Oscar", true]
+// desde aqui para descomentar
 
 
 
-// object objeto
-let persona = {
- nombre: "Oscar",
- apellido: "Mamani",
- edad: 31,
- ciudadNatal: "Bda rio sali", 
 
-}
+// let vendedor = "enrico" ;
+// let vendedor2 = 'gonzalo' ;
+// console.log("vendedor: ", typeof vendedor) 
+
+// let number1 = 31 ;
+
+// let number2 = 13.05 ;
+// console.log("Number1: ", typeof number1) 
+// console.log("Number2: ", typeof number2)
+
+// // boleans
+// let verdadero = true ;
+// let falso = false ;
+// console.log("Verdadero: ", typeof verdadero)
+// console.log("Falso: ", typeof falso)
+// // nulo
+// let dinero = null ;
+// console.log("Dinero: ", typeof dinero)
+// // undefined
+//  let sueldo; 
+//  console.log("Sueldo: ", typeof sueldo)
+
+// //  DATOS COMPLEJOS
+
+// // Array arreglo
+// let arreglo = [1, "Oscar", true]
+
+
+
+// // object objeto
+// let persona = {
+//  nombre: "Oscar",
+//  apellido: "Mamani",
+//  edad: 31,
+//  ciudadNatal: "Bda rio sali", 
+
+// }
 // (va la coma aqui o no) en ciudad natal
+
+
+//tarea   
+//usando metodos matematicos
+
+// let num1 = Number(prompt('Ingrese el primer numero'));
+// let num2 = Number(prompt('Ingrese el segundo numero'));
+// let num3 = Number(prompt('Ingrese el tercer numero'));
+
+// let numMax = Math.max(num1 ,num2 ,num3);
+// console.log('el numero mayor es: ' + numMax);
+
+// let numMin = Math.min(num1 ,num2 ,num3);
+// console.log('el numero menor es: ' + numMin);
+
+// console.log('la raiz cuadrada del segundo numero es: ' + Math.sqrt(num2));
+// console.log(`la raiz cuadrada de ${num2} es:  ${Math.sqrt(num2)} `);
+
+//usando metodos string
+
+let nombreCompleto = prompt('ingrese su nombre completo')
+let nombreYapellido = nombreCompleto.split(' ');
+let nombre = nombreYapellido[0]
+let apellido = nombreYapellido[1]
+nombre = nombre.charAt(0).toUpperCase() + nombre.slice(1)
+apellido = apellido.charAt(0).toUpperCase() + apellido.slice(1)
+//ahorrando todo lo que se hizo arriba
+
+// let [nombre, apellido] = nombreCompleto.split(' ');
+
+
+
+console.log(nombreYapellido);
+console.log(nombre, apellido);
+
