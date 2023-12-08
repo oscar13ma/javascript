@@ -1,10 +1,13 @@
-// let myArray = [1, "pedro", true, false,]
+// let myArray = [1, "pedro",]
 // let frase = 'hola mundo'
 // console.log(myArray)
 
 // frase = frase + ' como estan?'
 // console.log(frase)
 // console.log(myArray[1]);
+
+
+
 // let limite = myArray.length;
 
 // for (let i = 0; i < myArray.length; i++) {
@@ -14,31 +17,31 @@
 //     }
 // }
 
-// let listadoNombres = []
-// let nombre
-// do {
-//      nombre = prompt('ingrese un nombre');
+let listadoNombres = []
+let nombre
+do {
+     nombre = prompt('ingrese un nombre');
    
-// if (nombre) {
-//     listadoNombres.push(nombre)
-// }
+if (nombre) {
+    listadoNombres.push(nombre)
+}
     
-// } while (nombre);
+} while (nombre);
 
-// console.log(listadoNombres)
+console.log(listadoNombres)
 //para reemplazar
-// listadoNombres[0] = 'UNO'
-// listadoNombres.splice(0, 3, 'UNO')
+listadoNombres[0] = 'UNO'
+listadoNombres.splice(0, 2, 'UNO')
 
-// for (let i = 0; i < listadoNombres.length; i++) {
-//     // console.log(listadoNombres[i]);
-//     console.log(`en la posicion ${i} esta el elemento: ${listadoNombres[i]}`);
-// }
-
-
+for (let i = 0; i < listadoNombres.length; i++) {
+    // console.log(listadoNombres[i]);
+    console.log(`en la posicion ${i} esta el elemento: ${listadoNombres[i]}`);
+}
 
 
-// document.write('hola mundo')
+
+
+document.write('hola mundo')
 
 
 const alumnos = ['oscar', 'eduardo', 'pablo'];

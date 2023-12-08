@@ -26,14 +26,14 @@ console.log(str);
 console.log(str.toUpperCase());
 console.log(str.toLowerCase());
 console.log(str.charAt(8));
-console.log(str.indexOf('o'));
+console.log(str.indexOf('u'));
 console.log(str.lastIndexOf('o'));
-console.log(str.slice(0,8));
-console.log(str.split('o'));
+console.log(str.slice(0,10));
+console.log(str.split('c'));
 console.log(str.concat('es'));    
 console.log(str.length);
 
-let str2 ='999,333,hola'
+let str2 ='999,333,hols'
 console.log(str2.charAt(str2.length - 1))
 console.log(str2.split(','))
 
@@ -41,9 +41,9 @@ console.log(str2.split(','))
 // tengo ${edad} años,
 // mi actividad favorita es ${actividad}
 // y mi deporte favorito es ${deporte}`
-
+// console.log(tarjeta)
    
-   console.clear() ;
+   // console.clear() ;
 
    // Math
 
@@ -60,8 +60,8 @@ console.log(Math.pow(2,2))
 console.log(Math.sqrt(256))
 console.log(Math.cbrt(64))
 
-let min = 70
+let min = 90
 let max = 100
 console.log(Math.round(Math.random() * (min-max) + max))
 
-console.log(min.toString())
+console.log(max.toString())

@@ -77,3 +77,4 @@ let persona = {
 
 }
 // (va la coma aqui o no) en ciudad natal
+console.log(persona)

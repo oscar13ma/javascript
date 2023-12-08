@@ -1,32 +1,32 @@
-if (true) {
-    console.log('hola')
-    alert('chau')
-}
+// if (true) {
+//     console.log('hola')
+//     alert('chau')
+// }
 
 
-let edad = parseInt(prompt("Ingrese su edad"));
+// let edad = parseInt(prompt("Ingrese su edad"));
 
-if (edad >= 18)  {
-alert('Sos mayor de edad')
-console.log('Sos mayor de edad')
-} else {
-    console.log('Sos menor de edad')
-    alert('Sos menor de edad')
-}
+// if (edad >= 18)  {
+// alert('Sos mayor de edad')
+// console.log('Sos mayor de edad')
+// } else {
+//     console.log('Sos menor de edad')
+//     alert('Sos menor de edad')
+// }
 
-let num1 = Number(prompt('Ingrese un numero'));
+// let num1 = Number(prompt('Ingrese un numero'));
 
- if (num1) {
-    console.log(num1);
-    if ((num1 % 2) === 0) {
-    console.log(`El ${num1} es par`)
-} else {
-    console.log(`El ${num1} es impar`)
-}
+//  if (num1) {
+//     console.log(num1);
+//     if ((num1 % 2) === 0) {
+//     console.log(`El ${num1} es par`)
+// } else {
+//     console.log(`El ${num1} es impar`)
+// }
  
- } else {
-    console.log('ingrese un numero correctamente')
- }
+//  } else {
+//     console.log('ingrese un numero correctamente')
+//  }
 
  //valores falsy
  //0

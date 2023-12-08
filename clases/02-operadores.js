@@ -26,8 +26,8 @@ console.log('Num2 = ', num2) ;
 
 // // incremento
 
-// num1++;
-// console.log('incremento: ', num1) ;
+num1++;
+console.log('incremento: ', num1) ;
 
 // num2--;
 // console.log('decremento: ', num2) ;
