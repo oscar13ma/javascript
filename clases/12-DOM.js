@@ -6,11 +6,11 @@ const title = document.getElementById('title');
 
 title.innerHTML = `<h1>Hola ${nombre}</h1>`;
 
-const button = document.querySelectorAll('button');
+const button = document.querySelector('button');
 console.log(button);
 
-document.body.appendChild(title.cloneNode(false));
-document.body.removeChild(title);
+// document.body.appendChild(title.cloneNode(false));
+// document.body.removeChild(title);
 
 const btnDont = document.querySelector('#btn-dont')
 
@@ -18,6 +18,7 @@ const btnDont = document.querySelector('#btn-dont')
 
 // }
 
+//o de otra manera asi
 // function handlerBtnDont() {
 
 // }

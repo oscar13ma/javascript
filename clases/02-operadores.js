@@ -1,12 +1,12 @@
 // parseint numero entero
 // y tambien puedo usar number
 let num1 = Number(prompt('ingrese su primer numero: ')) ;        
-let num2 = (prompt('ingrese su segundo numero: ')) ;
+let num2 = Number(prompt('ingrese su segundo numero: ')) ;
 
-console.log('Num1 = ', num1) ; 
+console.log('Num1 = ', num1) ; //A ESTO IMPORTANTE, VISUALMENTE QUEDA MUCHO MEJOR
 console.log('Num2 = ', num2) ;
 
-// num1 += 5;
+// num1 += 5; es igual a num1 +5
 
 // let suma = num1 + num2;
 // // alert(suma);
@@ -37,7 +37,7 @@ console.log('incremento: ', num1) ;
 // let verdadero = true;
 // let falso = !true;
 
-// operadores relacionales
+// operadores relacionales CONCATENAR!!!
 console.log(num1 == num2) ;
 console.log(num1 != num2) ;
 console.log(num1 + ' y ' + num2 + ' son iguales? ', num1 == num2)

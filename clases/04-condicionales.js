@@ -20,12 +20,15 @@
 //     console.log(num1);
 //     if ((num1 % 2) === 0) {
 //     console.log(`El ${num1} es par`)
+//     alert(`El ${num1} es par`)
 // } else {
 //     console.log(`El ${num1} es impar`)
 // }
  
 //  } else {
 //     console.log('ingrese un numero correctamente')
+//     alert('ingrese un numero correctamente')
+
 //  }
 
  //valores falsy
@@ -39,6 +42,7 @@
 let letra = prompt("Ingrese una letra");
 if (letra.length > 1) {
     console.log('ingrese solo una letra')
+    alert('ingrese solo una letra')
 } else {
     switch (letra) {
         case 'a':
@@ -59,6 +63,7 @@ if (letra.length > 1) {
      
         default:
             console.log('ingrese una letra vocal')
+            alert('ingrese una letra vocal')
             
      }
 }

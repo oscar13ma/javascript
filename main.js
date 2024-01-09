@@ -44,43 +44,46 @@
 
 
 
-// let vendedor = "enrico" ;
-// let vendedor2 = 'gonzalo' ;
-// console.log("vendedor: ", typeof vendedor) 
+let vendedor = "enrico" ;
+let vendedor2 = 'gonzalo' ;
+console.log("vendedor: ", typeof vendedor) 
+console.log("vendedor: ",  vendedor) 
 
-// let number1 = 31 ;
+let number1 = 31 ;
 
-// let number2 = 13.05 ;
-// console.log("Number1: ", typeof number1) 
-// console.log("Number2: ", typeof number2)
+let number2 = 13.05 ;
+console.log("Number1: ",  number1) 
+console.log("Number2: ", typeof number2)
 
-// // boleans
-// let verdadero = true ;
-// let falso = false ;
-// console.log("Verdadero: ", typeof verdadero)
-// console.log("Falso: ", typeof falso)
-// // nulo
-// let dinero = null ;
-// console.log("Dinero: ", typeof dinero)
-// // undefined
-//  let sueldo; 
-//  console.log("Sueldo: ", typeof sueldo)
+// boleans
+let verdadero = true ;
+let falso = false ;
+console.log("Verdadero: ", typeof verdadero)
+console.log("Falso: ",  falso)
+// nulo
+let dinero = null ;
+console.log("Dinero: ",  dinero)
+// undefined
+ let sueldo; 
+ console.log("Sueldo: ",  sueldo)
 
 // //  DATOS COMPLEJOS
 
 // // Array arreglo
-// let arreglo = [1, "Oscar", true]
+let arreglo = [1, "Oscar", true]
+console.log(arreglo)
 
 
+// object objeto
+let persona = {
+ nombre: "Oscar",
+ apellido: "Mamani",
+ edad: 31,
+ ciudadNatal: "Bda rio sali",  //camelCase
 
-// // object objeto
-// let persona = {
-//  nombre: "Oscar",
-//  apellido: "Mamani",
-//  edad: 31,
-//  ciudadNatal: "Bda rio sali", 
+}
+console.log(persona)
 
-// }
 // (va la coma aqui o no) en ciudad natal
 
 
@@ -102,18 +105,18 @@
 
 //usando metodos string
 
-let nombreCompleto = prompt('ingrese su nombre completo')
-let nombreYapellido = nombreCompleto.split(' ');
-let nombre = nombreYapellido[0]
-let apellido = nombreYapellido[1]
-nombre = nombre.charAt(0).toUpperCase() + nombre.slice(1)
-apellido = apellido.charAt(0).toUpperCase() + apellido.slice(1)
+// let nombreCompleto = prompt('ingrese su nombre completo')
+// let nombreYapellido = nombreCompleto.split(' ');
+// let nombre = nombreYapellido[0]
+// let apellido = nombreYapellido[1]
+// nombre = nombre.charAt(0).toUpperCase() + nombre.slice(1)
+// apellido  = apellido .charAt(0).toUpperCase() + apellido .slice(1)
 //ahorrando todo lo que se hizo arriba
 
 // let [nombre, apellido] = nombreCompleto.split(' ');
 
 
 
-console.log(nombreYapellido);
-console.log(nombre, apellido);
+// console.log(nombreYapellido);
+// console.log(nombre, apellido);
 
