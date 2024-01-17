@@ -3,6 +3,7 @@
 
 const meses = ['enero', 'febrero', 'marzo', 'abril']
 
+
 let mesesPantalla = `<ol>`
 for (let index = 0; index < meses.length; index++) {
     mesesPantalla += `<li>${meses[index]}</li>`;

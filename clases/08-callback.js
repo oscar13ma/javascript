@@ -14,7 +14,7 @@ for (let index = 0; index < array.length; index++) {
     if (array[index].length > 6) {
      trueArray.push(array[index])
     }
-     
+    
 }
 
 return trueArray;

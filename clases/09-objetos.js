@@ -53,35 +53,35 @@ alumno.edad = 31;
     
   const listaProductos = [
         {
-            Titulo: 'teclado',
+            titulo: 'teclado',
             descripcion : 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus quisquam provident iusto suscipit? Recusandae ea earum, nulla suscipit iure omnis architecto. Necessitatibus dignissimos sunt pariatur culpa aspernatur nihil adipisci soluta atque neque.',
             precio: 200,
 
 
         },
-        {   Titulo: 'mouse',
+        {   titulo: 'mouse',
             descripcion : 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus quisquam provident iusto suscipit? Recusandae ea earum, nulla suscipit iure omnis architecto. Necessitatibus dignissimos sunt pariatur culpa aspernatur nihil adipisci soluta atque neque.',
 
             precio: 400, 
         },
-        {  Titulo: 'monitor',
+        {  titulo: 'monitor',
            descripcion : 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus quisquam provident iusto suscipit? Recusandae ea earum, nulla suscipit iure omnis architecto. Necessitatibus dignissimos sunt pariatur culpa aspernatur nihil adipisci soluta atque neque.',
            precio: 300, 
     },
     ]   //hasta 1:52
 
     
-//  listaProductos.forEach( function (producto) {
-//     console.log(`El producto: ${producto.titulo} cuesta: ${producto.precio}`);
+ listaProductos.forEach( function (producto) {
+    console.log(`El producto: ${producto.titulo} cuesta: ${producto.precio}`);
 
 
-//  });
- function recorrerProductos(producto) {
-    console.log(`El producto: ${producto.Titulo} cuesta: ${producto.precio}`);
+ });
+//  function recorrerProductos(producto) {
+//     console.log(`El producto: ${producto.Titulo} cuesta: ${producto.precio}`);
 
-};
+// };
 
-listaProductos.forEach(recorrerProductos);
+// listaProductos.forEach(recorrerProductos);
     
  
     // function recorrerProductos(producto) >= {

@@ -3,10 +3,23 @@
 
 
 
-// console.log(num1)
-// console.log(num2)
+
+let num1 = Number(prompt('Ingrese el primer factor'))
+let num2 = Number(prompt('Ingrese el segundo factor'))
+let operacion = prompt('ingrese la operacion a realizar')
 
 
+if (isNaN(num1)) {
+    console.log('el num1 es NaN')
+   num1 = 0;
+   }
+if (isNaN(num2)) {
+    console.log('el num2 es NaN')
+    num2 = 0;
+    }
+    console.log(num1)
+console.log(num2)
+console.log(operacion)
 
 
 function calculadora(factor1, factor2, operacion ) {
@@ -29,20 +42,20 @@ function calculadora(factor1, factor2, operacion ) {
     switch (operacion) {
         case '+':
          case 'suma':   
-            alert(`El resultado de ${factor1} + ${factor2} = ${factor1 + factor2}`); 
+            alert(`El resultado de ${num1} + ${num2} = ${num1 + num2}`); 
             
             break;
             case '-':
                 case'resta':
-            alert(`El resultado de  ${factor1} - ${factor2} = ${factor1 - factor2}`)
+            alert(`El resultado de  ${num1} - ${num2} = ${num1 - num2}`)
             break;
             case '*': 
             case 'multiplicacion':
-            alert(`El resultado de  ${factor1} * ${factor2} = ${factor1 * factor2}`)
+            alert(`El resultado de  ${num1} * ${num2} = ${num1 * num2}`)
             break;
             case '/':
                 case 'division': 
-            alert(`El resultado de  ${factor1} / ${factor2} = ${factor1 / factor2}`)
+            alert(`El resultado de  ${num1} / ${num2} = ${num1 / num2}`)
             break; 
         default:
     
@@ -50,7 +63,7 @@ function calculadora(factor1, factor2, operacion ) {
             break;
     }
     
-}
+
 
 let confirmacion;
 
@@ -64,4 +77,4 @@ calculadora(num1, num2, operacion);
 
  confirmacion = confirm('queres hacer otra operacion?')
 
-} while (confirmacion);
+} while (confirmacion)

@@ -3,6 +3,7 @@ const notas1 = [5, 7, 9, 10];
 const notas2  = [2, 4, 7, 9]
 
 
+
 //funcion declarativa
 function promediar(notas) {
     
@@ -18,12 +19,11 @@ for (let index = 0; index < notas.length; index++) {
 
     return promedio; 
 
-
 }
 
 
 
-let promedio1 = promediar(notas1);
+let promedio1 = promediar(notas1);  
 let promedio2 = promediar(notas2);
 
 console.log(promedio1);
@@ -37,7 +37,8 @@ let promedio = callback(notas)
 
 console.log(`el promedio de las notas en todo el año es: ${promedio}`)
 }
-mostrarPromedio(notas1, promediar);
+mostrarPromedio(notas1, promediar)
 mostrarPromedio(notas2, promediar); 
+
 
 //callbacks

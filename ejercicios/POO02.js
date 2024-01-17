@@ -10,7 +10,7 @@ class Producto {
     }
 
 
-    imprimeDatos() {
+    datosProd() {
         console.log(`Codigo: ${this.codigo}`);
         console.log(`Nombre: ${this.nombre}`);
         console.log(`Precio: $${this.precio}`);
@@ -37,7 +37,7 @@ for (let i = 0; i < veces; i++) {
 
 
 productos.forEach((prod)  => {
-    prod.imprimeDatos();
+    prod.datosProd();
 });
 
 // productos.push(new Producto('A1', 'Remera', '12000'));

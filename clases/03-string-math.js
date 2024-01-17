@@ -68,3 +68,4 @@ let max = 13
 console.log(Math.round(Math.random() * (min-max) + max))
 
 console.log(max.toString())
+

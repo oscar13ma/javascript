@@ -13,16 +13,39 @@
 
 // while (i < frase.length) {
     // console.log(`la letra en posicion ${i} es ${frase.charAt(i)}`);
+// let i = 0
+// while (i < frase.length) {
+//     console.log(`la letra en posicion ${i} es ${frase.charAt(i)}`)
+//     if (
+//         frase.charAt(i).toLowerCase() == 'a'  || 
+//         frase.charAt(i).toLowerCase() == 'e'  || 
+//         frase.charAt(i).toLowerCase() == 'i'  || 
+//         frase.charAt(i).toLowerCase() == 'o'  || 
+//         frase.charAt(i).toLowerCase() == 'u'  
+//     ) {
+//         console.log(frase.charAt(i).toLowerCase());
+//         vocales += frase.charAt(i).toLowerCase();
+// }
+//     i++;
+// }
+
+// if (vocales.length> 0) {
+//     console.log('las vocales son: ', vocales)
+
+// } else {
+//      console.log(`tu frase "${frase}" no tiene vocales`)
+// }
+
 
     // if (
-    //     frase.charAt(i).toLowerCase() == 'a'  || 
-    //     frase.charAt(i).toLowerCase() == 'e'  || 
-    //     frase.charAt(i).toLowerCase() == 'i'  || 
-    //     frase.charAt(i).toLowerCase() == 'o'  || 
-    //     frase.charAt(i).toLowerCase() == 'u'  
+    //     frase.charAt(0).toLowerCase() == 'a'  || 
+    //     frase.charAt(0).toLowerCase() == 'e'  || 
+    //     frase.charAt(0).toLowerCase() == '0'  || 
+    //     frase.charAt(0).toLowerCase() == 'o'  || 
+    //     frase.charAt(0).toLowerCase() == 'u'  
     // ) {
-        // console.log(frase.charAt(i).toLowerCase());
-        //  vocales += frase.charAt(i).toLowerCase();
+    //     console.log(frase.charAt(0).toLowerCase());
+    //      vocales += frase.charAt(i).toLowerCase();
     //     vocales = vocales + frase.charAt(i).toLowerCase() + '-';
     // }
 
@@ -44,15 +67,15 @@
 let frase = prompt('ingrese una frase')
 let vocales = '';
 
-    // console.log(frase);
-    // console.log
+    console.log(frase);
+    console.log
 let i = 0;
 console.log(frase.length);
 console.log(frase.charAt(10));
 
 
 for ( let i = 0; i < frase.length; i++) {
-    // console.log(`la letra en posicion ${i} es ${frase.charAt(i)}`);
+    console.log(`la letra en posicion ${i} es ${frase.charAt(i)}`);
 
     if (
         frase.charAt(i).toLowerCase() == 'a'  || 
@@ -61,9 +84,9 @@ for ( let i = 0; i < frase.length; i++) {
         frase.charAt(i).toLowerCase() == 'o'  || 
         frase.charAt(i).toLowerCase() == 'u'  
     ) {
-        // console.log(frase.charAt(i).toLowerCase());
-        //  vocales += frase.charAt(i).toLowerCase();
-        vocales = vocales + frase.charAt(i).toLowerCase() + '-';
+        console.log(frase.charAt(i).toLowerCase());
+        //  vocales += frase.charAt(i).toLowerCase();                // estos dos son lo mismo(fijarse la pequeña diferencia)
+        vocales = vocales + frase.charAt(i).toLowerCase() + ' ';
     }
 
 
