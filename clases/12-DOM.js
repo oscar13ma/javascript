@@ -5,15 +5,16 @@ document.body.innerHTML += `<p>Esto es un parrafo</p>`;
 const title = document.getElementById('title');
 
 title.innerHTML = `<h1>Hola ${nombre}</h1>`;
+prueba.innerHTML = `Hola ${nombre}`;
 
 const button = document.querySelector('button');
 console.log(button);
 
-// document.body.appendChild(title.cloneNode(false));
-// document.body.removeChild(title);
+document.body.appendChild(title.cloneNode(true));
+document.body.removeChild(title);
 
-const btnDont = document.querySelector('#btn-dont')
-
+const nomeTOques = document.querySelector('#btn-dont') //const para evitar errores
+ 
 // const handlerBtnDont = () => {
 
 // }
@@ -23,7 +24,7 @@ const btnDont = document.querySelector('#btn-dont')
 
 // }
 
-btnDont.addEventListener('click', (event) => {
+nomeTOques.addEventListener('click', (event) => {          //el parametro event se lo puede llamar de cualquier forma
   console.log(event)
   alert('No me toques')
 })
