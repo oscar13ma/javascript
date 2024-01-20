@@ -1,4 +1,4 @@
-let agenda = JSON.parse(localStorage.getItem('agenda')) || [];
+let agenda = JSON.parse(localStorage.getItem('agenda')) || []; //SUMADO SI ES RESULTADO FALSY
 
 class Contacto {
   constructor(nombre, telefono) {
@@ -43,3 +43,4 @@ const showContacts = (array) => {
 };
 
 showContacts(agenda);
+//ANALIZAR BIEN ESTO QUE ES LO QUE NOS HACE MOSTRAR EN LA PANTALLA LA LISTA
